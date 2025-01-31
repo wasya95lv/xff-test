@@ -41,9 +41,8 @@ app.get('/admin', (req, res) => {
 });
 
 app.get('/login', (req, res) => {
-    res.send('To proceed with access you need to provide valid credentials and use IP from white list. \
-        #TODO: Configure whitelist from file \
-        File: <a href="whitelists.txt">whitelists.txt</a> \
+    res.send('To proceed with access you need to provide valid credentials or use IP from white list. \
+        #TODO: Configure whitelist from file whitelists.txt \
         ### Please remove it after configuration ###');
 });
 
